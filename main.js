@@ -9,14 +9,14 @@ const OPPONENT_HEIGHT = 5,
     KEY_SHOOT = "SHOOT",
     MIN_TOUCHMOVE = 20,
     PLAYER_HEIGHT = 5,
-    PLAYER_PICTURE = "assets/navebuena.jpg",
+    PLAYER_PICTURE = "assets/crucerogalactico.png",
     PLAYER_PICTURE_DEAD = "assets/bueno_muerto.png",
     PLAYER_SPEED = 20,
     PLAYER_WIDTH = 5,
     SHOT_HEIGHT = 1.5,
-    SHOT_SPEED = 20,
+    SHOT_SPEED = 20, //velocidad 
     SHOT_PICTURE_PLAYER = "assets/shot1.png",
-    SHOT_PICTURE_OPPONENT = "assets/shot2.png",
+    SHOT_PICTURE_OPPONENT = "assets/flame.jpg",
     SHOT_WIDTH = 1.5;
 
 function getRandomNumber (range) {
