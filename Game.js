@@ -239,7 +239,7 @@ class Game {
             this.render();
         }
     }
-
+  
     /**
      * Muestra todos los elementos del juego en la pantalla
      */
@@ -254,7 +254,9 @@ class Game {
         this.opponentShots.forEach((shot) => {
             shot.render();
         });
-      document.getElementById("scoreli").innerHTML = 'Score: ${this.score}';
-      document.getElementById("liveli").innerHTML = 'Lives: $[this.player.lives}';
+      document.getElementById("scoreli").innerHTML = `Score: ${this.score}`;
+      // let lives = document.getElementById("livesli");
+      document.getElementById("livesli").innerHTML = `Lives: ${this.player.lives}`;
+      document.getElementById("Audio").volume = 0.1;
     }
 }
